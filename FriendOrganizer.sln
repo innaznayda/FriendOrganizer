@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendOrganizer.DataAccess", "FriendOrganizer.DataAccess\FriendOrganizer.DataAccess.csproj", "{934B1E4E-215F-466F-AF23-B5704D333FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendOrganizer.Model", "FriendOrganizer.Model\FriendOrganizer.Model.csproj", "{FBAF2A66-2913-4065-B897-2AA38EEE04BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendOrganizer.UI", "FriendOrganizer.UI\FriendOrganizer.UI.csproj", "{2346841E-F9B8-4EC3-8B9E-85EEC00322AB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{934B1E4E-215F-466F-AF23-B5704D333FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934B1E4E-215F-466F-AF23-B5704D333FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934B1E4E-215F-466F-AF23-B5704D333FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934B1E4E-215F-466F-AF23-B5704D333FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAF2A66-2913-4065-B897-2AA38EEE04BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAF2A66-2913-4065-B897-2AA38EEE04BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAF2A66-2913-4065-B897-2AA38EEE04BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAF2A66-2913-4065-B897-2AA38EEE04BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2346841E-F9B8-4EC3-8B9E-85EEC00322AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2346841E-F9B8-4EC3-8B9E-85EEC00322AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2346841E-F9B8-4EC3-8B9E-85EEC00322AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2346841E-F9B8-4EC3-8B9E-85EEC00322AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
